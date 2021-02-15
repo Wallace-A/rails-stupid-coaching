@@ -1,0 +1,29 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ // Defining a variable
+ $gray: #ffffff;
+
+ body{
+   background:  rgb(236, 236, 236);
+   font-family: "Helvetica Neue", sans-serif;
+ }
+
+ h2 {
+   margin-left: 16px;
+   
+ }
+ .container {
+  border-left: 8px solid #353434;
+  margin: 16px;
+  padding-left: 16px;
+  background: $gray;
+ }
+ a {
+  color: grey;
+  font-size: 24px;
+  &:hover {
+    color: black;
+  }
+}
